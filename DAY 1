@@ -1,0 +1,91 @@
+DAY 1
+
+Write a c program to print your name without semicolon
+#include<stdio.h>
+void main()
+{
+	if(printf("Alex"))
+	{
+		
+	}
+}
+______________________________________________________________________________________
+Write a c program to check the number is even or odd
+#include<stdio.h>
+int main()
+{
+   int n;
+  printf("Input the number: ");
+  scanf("%d",&n);
+  if((n/2)*2==n)
+{
+    printf("Even");
+}
+else
+{
+  printf("Odd");
+}
+return 0;
+}
+__________________________________________________________________________________________________
+
+Write a c program to swap two numbers without using third variable and '+ , -' operator
+#include<stdio.h>
+int main()
+{
+   int a,b;
+printf("Input two numbers: ");
+scanf("%d %d",&a,&b);
+a=a*b;
+b=a/b;
+a=a/b;
+printf("Numbers after swapping: %d %d",a,b);
+return 0;
+}
+___________________________________________________________________________________________________
+
+Write a c program swap two numbers using (^) XOR operator
+#include<stdio.h>
+int main()
+{
+int a,b;
+   printf("Input two integers: ");
+   scanf("%d %d",&a,&b);
+   a^=b^=a^=b;
+   printf("Numbers after swapping: %d %d",a,b);
+   return 0;
+}
+
+_____________________________________________________________________________________
+
+Write a c program swap two numbers in one line
+#include<stdio.h>
+int main()
+{
+   int a,b;
+ printf("Input two numbers: ");
+scanf("%d %d",&a,&b);
+a=a*b;b=a/b;a=a/b;
+printf("Numbers after swapping: %d %d",a,b);
+return 0;
+}
+_____________________________________________________________________________________
+Write a c program to find the maximum of three numbers
+#include<stdio.h>
+int main()
+{
+    int maximum; int a=4,b=7,c=2;printf("maximum:%d\n",(a>b ?(a>c ? a:c):(b>c ? b:c)));
+return 0;
+}
+___________________________________________________________________________________________
+
+Write a c program to check the size of the computer processor
+#include<stdio.h>
+int main()
+{
+   double *p;
+   double a;
+   p=&a;
+printf("Size of the processor= %d bits",sizeof(p)*8);
+return 0;
+}
