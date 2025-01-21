@@ -1,0 +1,107 @@
+DAY 2 
+
+Write a c program to print your name without using <> operator
+#include"stdio.h"
+int main()
+{   
+     printf("James");
+return0;
+}
+
+__________________________________________________________________________
+Write a c program to check whether the roll no.10 present or not
+#include<stdio.h>
+int main()
+{
+    int roll;
+printf("Enter the roll no: ");
+scanf("%d",&roll);
+if(roll==10)
+{
+   printf("Present");
+}
+return 0;
+}
+____________________________________________________________________________
+
+Write a c program to check a number is even or odd
+#include<stdio.h>
+int main()
+{      
+           int n;
+          printf("Enter a number: ");
+          scanf("%d",&n);
+          if(n%2==0)
+        {   
+                 printf("Even");
+        }
+      else
+          { 
+                printf("Odd");
+          }
+return 0;
+}
+
+__________________________________________________________________________________
+
+Write a c program to check the year is leap year or not
+#include<stdio.h>
+int main()
+{
+   int year;
+ printf("Enter a year: ");
+  scanf("%d",&n);
+if(year%400==0)
+{
+    printf("Century and leap year");
+}
+else if(year%100==0)
+{
+    printf("Century but not leap year");
+}
+else if(year%4==0)
+{
+     printf("Not century but leap year");
+}
+else
+{
+    printf("Not century and not leap year");
+}
+return 0;
+}
+
+___________________________________________________________________________________________________
+
+Write a c program to find the biggest of three numbers
+#include<stdio.h>
+int main()
+{
+   int a,b,c;
+   printf("Enter three numbers: ");
+   scanf("%d %d %d",&a,&b,&c);
+   if(a>b)
+{
+   if(a>c)
+        { 
+           printf("The biggest number is a");
+        }
+        else
+           {
+              printf("The bigeest number is c");
+           }
+}
+else
+  {
+         if(b>c)
+              { 
+                 printf("The biggest number is b");
+              }
+             else
+                { 
+                   printf("the biggest number is c");
+                }
+  }
+return 0;
+}
+______________________________________________________________________________
+   
